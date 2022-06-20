@@ -1,0 +1,85 @@
+body {
+    background: rgb(36, 36, 36);
+}
+
+.container {
+    width: 550px;
+    height: 470px;
+    background: #1F2937;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 6%;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color:#FFFFFF;
+}
+
+h1 span {
+    color: #10B981;
+    display: block;
+}
+
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button {
+    justify-content: center;
+    align-items: center;
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.password {
+    border-top: 1px solid #2F3E53;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.field1, .field2 {
+    width: 250px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #55F991;
+}
+
+.field1 {
+    float: left;
+}
+
+.field2 {
+    float: right;
+}
+
+.field1 p, .field2 p {
+    margin: 3% auto;
+    color: #55F991;
+}
